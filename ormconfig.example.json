@@ -1,0 +1,14 @@
+{
+    "type":"",
+    "host":"",
+    "port":"",
+    "username":"",
+    "password":"",
+    "database":"where the database will be or the db name on your connection",
+    "migrations":["where the migrations will be"],
+    "entities":["where the entities will be"],
+    "cli":{
+       "migrationsDir":"src/database/migrations",
+       "entitiesDir":"src/entities"
+    }
+}
