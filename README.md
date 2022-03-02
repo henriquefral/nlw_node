@@ -4,21 +4,36 @@ Summary
 =======
 
 <!--ts-->
+   * [About](#About)
    * [Details](#Details)
    * [Installation](#installation)
    * [How to use](#how-to-use)
 <!--te-->
 
+
+
+About
+=========
+   This project aims to create a mini social network that allows users to send compliments to each other. 
+
+   Where new compliments can be created, only by admins.
+
+   For example: User X indicates a compliment to User Y. User Y now has the compliment sent in their profile.
+
+
+
 Details
 ==========
 This app is built with TypeScript. Converted to JavaScript with ``` ts-node-dev ``` dependency.
 
-To creating the application, I used these packages:
+To creating the application, I used these technologies:
 
 - Express;
 - MySql;
 - TypeOrm;
-- Reflect-Metadata.
+- Reflect-Metadata
+- JWT
+- BcryptJs.
 
 Installation
 ==========
