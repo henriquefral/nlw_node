@@ -80,29 +80,29 @@ Rules
 
 Registering a user
 
-- []  The e-mail is unique, the email cannot be on two users.
+- [ ]  The e-mail is unique, the email cannot be on two users.
 
-- [] The e-mail and password are necessary to create an user.
+- [ ] The e-mail and password are necessary to create an user.
 
 <BR/>
 
 Registering a TAG
 
-- [] The TAG name is unique, two or more tags cannot have the same name. 
+- [ ] The TAG name is unique, two or more tags cannot have the same name. 
 
-- [] The name is necessary to create an TAG.
+- [ ] The name is necessary to create an TAG.
 
-- [] Only admin users can create a new TAG.
+- [ ] Only admin users can create a new TAG.
 
 <BR/>
 
 Registering a compliment
 
-- [] Cannot make a compliment to yourself.
+- [ ] Cannot make a compliment to yourself.
 
-- [] Cannot make a compliment for invalid users, it need to exists.
+- [ ] Cannot make a compliment for invalid users, it need to exists.
 
-- [] The user need to be authorized to create a compliment. 
+- [ ] The user need to be authorized to create a compliment. 
 
 <BR/>
 
@@ -125,5 +125,5 @@ Usage
 | GET | /tags | Yes |
 | GET | users/compliments/send | Yes  |
 | GET | users/compliments/receive | Yes |
-|     
+
 
