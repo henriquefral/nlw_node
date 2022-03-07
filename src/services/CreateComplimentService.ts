@@ -15,7 +15,7 @@ class CreateComplimentService {
         const complimentsRepositories = getCustomRepository(ComplimentsRepositories);
         const usersRepositories = getCustomRepository(UsersRepositories);
 
-        if (user_receiver == user_receiver) {
+        if (user_sender == user_receiver) {
             throw new Error (" Incorrect user receiver");
         }
 
