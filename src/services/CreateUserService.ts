@@ -17,6 +17,10 @@ class CreateUserService {
             throw new Error("Email Incorrect");
         };
 
+        if (!password) {
+            throw new Error("Password Incorrect");
+        };
+
         const userAlreadyExists = await usersRepository.findOne({email});
 
         if (userAlreadyExists) {
