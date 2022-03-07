@@ -1,5 +1,6 @@
 import { getCustomRepository } from "typeorm";
 import { ComplimentsRepositories } from "../repositories/ComplimentsRepositories";
+import { instanceToPlain } from 'class-transformer';
 
 class ListUserSendComplimentsService{
     async execute(user_id: string) 
@@ -8,12 +9,12 @@ class ListUserSendComplimentsService{
 
         const compliments = await complimentsRepositories.find({
             where: {
-                userSender: user_id,
+                user_sender: user_id,
             },
-            relations: ["user_sender", "user_receiver", "tag_id"] // Caution
+            relations: ["tag", "userSender", "userReceiver"] // Caution
         });
 
-        return compliments;
+        return instanceToPlain(compliments);
     }
 
 }
