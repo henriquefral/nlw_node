@@ -4,12 +4,12 @@ Summary
 =======
 
 <!--ts-->
-   * [About](#About)
-   * [Details](#Details)
+   * [About](#about)
+   * [Details](#details)
    * [Installation](#installation)
-   * [Usage](#Usage)
-   * [Rules](#Rules)
-   * [Authentication](#Authentication)
+   * [Rules](#rules)
+   * [Authentication](#authentication)
+   * [Usage](#usage)
 <!--te-->
 
 <BR/>
